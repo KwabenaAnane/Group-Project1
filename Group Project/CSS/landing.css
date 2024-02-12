@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6f6;
+  /* min-height: 100vh; */
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  text-align: none;
+}
+
+header {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #bd7482;
+  width: 100%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  width: 100px;
+  height: 60px;
+}
+
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0.3s;
+  text-decoration: none;
+}
+.nav__links li a:hover {
+  color: #c60e33;
+}
+
+/* USE THIS FOR ALL BUTTONS */
+button {
+  padding: 10px 25px;
+
+  background-color: #9e4557;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #f7f6f6;
+  transition: all 0.3s ease 0.3s;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: #b91a3a;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__container {
+  padding: 50px 30px 20px;
+  background-color: #bd7482;
+}
+.social__icons {
+  display: flex;
+  justify-content: center;
+}
+.social__icons a {
+  text-decoration: none;
+  padding: 10px;
+
+  margin: 10px;
+  border-radius: 50%;
+}
+.social__icons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.social__icons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.social__icons a i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footer__bottom {
+  background-color: #9e4557;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__bottom p {
+  color: white;
+}
